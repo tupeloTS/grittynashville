@@ -1,0 +1,26 @@
+div.header-module h1.logo-text {
+    font-family: 'Special Elite' !important;
+    font-size: 24px !important;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+         0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.post-share { 
+    display: block; 
+    padding-right: 20px;
+}
+
+.share-option-google {
+    display: none !important;
+}
+.share-option-linkedin {
+    display: none !important;
+}
+
+/************* Responsive Styles *****************/
+@media screen
+and (max-device-width: 480px)
+and (orientation: portrait) {
+    h1.logo-text a { font-size: 18px; }
+}
